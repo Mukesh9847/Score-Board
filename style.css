@@ -1,0 +1,80 @@
+body{
+    text-align: center;
+    
+}
+#main{
+    display: flex;  
+    justify-content: center;
+    gap: 194px;
+    width: 791px;
+    height: 600px;
+    background-color: #0C1441;
+    margin: 0 auto;
+    position: relative; /* Needed for absolute positioning inside */
+
+
+  
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(236, 228, 228);
+    margin-top: 61px;
+    font-size: 60px;
+  
+
+}
+#hScore-el , #gScore-el{
+
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: "Customized font";
+  src: url("Font/digital-7 (italic).ttf");
+}
+#hScore-el , #gScore-el{
+    align-items: center;
+    height:  154px;
+    width:  200px;
+    background-color: black;
+    font-family: "Customized font";
+    color: red;
+    margin: 0px auto;
+    font-size: 90px;
+    
+}
+
+#hButton , #gButton {
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+    width: 30px;
+    height: 30px;
+    border: #FFFAFA;
+
+}
+#hButton button,
+#gButton button {
+  background-color: #0C1441;
+  color:#F4E9E9;
+  border: solid 1px #F4E9E9;
+}
+
+#reset-el {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 160px;
+  font-size: 20px; /* or 60px, but only one! */
+}
+.reset-btn{
+    width: 60px;
+    height: 40px;
+    background-color: #0C1441;
+    color: #F4E9E9;
+    border: solid 1px #FFFAFA;
+}
