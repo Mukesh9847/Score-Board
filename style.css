@@ -24,7 +24,7 @@ h1{
   
 
 }
-#hScore-el , #gScore-el{
+#hScore-el , #aScore-el{
 
   display: flex;
   font-size: 25px;
@@ -35,7 +35,7 @@ h1{
   font-family: "Customized font";
   src: url("Font/digital-7 (italic).ttf");
 }
-#hScore-el , #gScore-el{
+#hScore-el , #aScore-el{
     align-items: center;
     height:  154px;
     width:  200px;
@@ -47,7 +47,7 @@ h1{
     
 }
 
-#hButton , #gButton {
+#hButton , #aButton {
     display: flex;
     margin-top: 20px;
     gap: 30px;
@@ -57,7 +57,7 @@ h1{
 
 }
 #hButton button,
-#gButton button {
+#aButton button {
   background-color: #0C1441;
   color:#F4E9E9;
   border: solid 1px #F4E9E9;

@@ -1,13 +1,13 @@
 let Home = 12
-let Guest = 5
+let Away = 5
 
 let Reset = 0
 
 let hScoreEl= document.getElementById("hScore-el")
 hScoreEl.textContent = Home
 
-let gScoreEl= document.getElementById("gScore-el")
-gScoreEl.textContent = Guest
+let aScoreEl= document.getElementById("aScore-el")
+aScoreEl.textContent = Away
 
 
 //For Home score
@@ -27,25 +27,25 @@ function hThree(){
 }
 
 //For guest score
-function gOne(){
-    Guest+=1
-    gScoreEl.textContent=Guest
+function aOne(){
+    Away +=1
+    aScoreEl.textContent=Away
 }
 
-function gTwo(){
-    Guest+=2
-   gScoreEl.textContent= Guest
+function aTwo(){
+    Away +=2
+   aScoreEl.textContent= Away
 }
 
-function gThree(){
-    Guest +=3
-    gScoreEl.textContent=Guest
+function aThree(){
+    Away +=3
+    aScoreEl.textContent=Away
 }
 
 //reset
 function reset(){
    Home = 0;
-   Guest = 0;
+   Away = 0;
    hScoreEl.textContent = Home
-   gScoreEl.textContent = Guest
+   aScoreEl.textContent = Away
 }
